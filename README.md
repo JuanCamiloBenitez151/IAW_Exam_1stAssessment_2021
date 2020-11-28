@@ -24,7 +24,7 @@ Once deployed, the Apache web server, the MySQL database server, and PhpMyAdmin 
 
 The following screenshot shows the result of accessing the web application, once deployed and up and running:
 
-![alt text](https://github.com/miquelcabot/IAW_Exam_1stAssessment_2021/blob/master/demo.png?raw=true "Application Demo")
+![alt text](demo.png "Application Demo")
 
 The points you have to deliver for this practice are:
 1. (4 points) Files needed to configure Docker containers. In this repository you have to add the files `Dockerfile` and `docker-compose.yml` in order to configure the containers requested in the statement. You may have also to modify the `www\config.php` file.
@@ -42,6 +42,8 @@ The points you have to deliver for this practice are:
    * There will be a Docker container with the phpMyAdmin program to manage the database
    * The system administrator must be able to enter the containers via the command terminal
    * The system administrator must be able to enter the MySQL client via the command terminal
+
+**NOTE**: The incorrect delivery of the exam and a limited number of commits may be penalized.
 
 ## 1. Files needed to configure Docker containers (4 points)
 Look at the `Dockerfile` and `docker-compose.yml` files in this repository.

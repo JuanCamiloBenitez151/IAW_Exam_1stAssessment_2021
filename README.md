@@ -7,7 +7,7 @@
 | Curs           | 2020/2021                                           |
 | Assignatura    | Implantació d'aplicacions web                       |
 | Data           | 30/11/2020                                          |
-| Alumne         | ________                                            |
+| Alumne         | ______________________________________________      |
 
 ## Statement
 
@@ -49,19 +49,19 @@ The points you have to deliver for this practice are:
 Look at the `Dockerfile` and `docker-compose.yml` files in this repository.
 
 ## 2. Prerequisites (1 point)
-(To complete)
+_____________ (To complete)
 
 ## 3. Run and stop the containers (1 point)
-(To complete)
+_____________ (To complete)
 
 ## 4. Access the web application and phpMyAdmin (1 point)
-(To complete)
+_____________ (To complete)
 
 ## 5. Enter via terminal (bash shell) the containers (1 point)
-(To complete)
+_____________ (To complete)
 
 ## 6. Enter the MySQL client via terminal (bash shell) (1 point)
-(To complete)
+_____________ (To complete)
 
 ## 7. Monitoring the development of this Sprint (1 point)
 Look at the `Issues` and `Projects` menus in this repository

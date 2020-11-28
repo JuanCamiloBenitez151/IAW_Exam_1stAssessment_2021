@@ -15,7 +15,7 @@ Deploy using Docker containers a simple web application, located in this same re
 
 To deploy this application you will need to create 3 containers:
 * One with Apache, PHP and PHP libraries to be able to access MySQL. In this container it will be copied the HTML, PHP, etc. files located in the *www* folder of this repository. It will be based on an specific tag/version of the `php` image.
-* One with a MySQL database server. This container will contain the database that the web application must access. It will be based on an specific tag/version of the `mysql` image. It must be initialized with the data in the `* .sql` files located in the *sql* folder of this repository.
+* One with a MySQL database server. This container will contain the database that the web application must access. It will be based on an specific tag/version of the `mysql` image. It must be initialized with the data in the `*.sql` files located in the *sql* folder of this repository.
 * One with the PhpMyAdmin application to be able to manage the MySQL database through a web interface. It will be based on an specific tag/version of the `phpmyadmin/phpmyadmin` image.
 
 In order to be able to launch the three containers in a coordinated way, it is recommended to use the Docker Compose tool (https://docs.docker.com/compose/).
@@ -28,8 +28,8 @@ The following screenshot shows the result of accessing the web application, once
 
 The points you have to deliver for this practice are:
 1. (4 points) Files needed to configure Docker containers. In this repository you have to add the files `Dockerfile` and `docker-compose.yml` in order to configure the containers requested in the statement. You may have also to modify the `www\config.php` file.
-    * (2 point) Apache, PHP and PHP libraries configuration
-    * (1 point) MySQL configuration
+    * (1,5 points) Apache, PHP and PHP libraries configuration
+    * (1,5 points) MySQL configuration and initialization of the `*.sql` data
     * (1 point) PhpMyAdmin configuration
 2. (1 point) Describe in the `README.md` file the software prerequisites to be able to run this project.
 3. (1 point) Describe in the `README.md` file the instructions for running and stopping the containers.
@@ -46,7 +46,7 @@ The points you have to deliver for this practice are:
 **NOTE**: The incorrect delivery of the exam and a limited number of commits may be penalized.
 
 ## 1. Files needed to configure Docker containers (4 points)
-Look at the `Dockerfile` and `docker-compose.yml` files in this repository.
+Look at the `Dockerfile`, `docker-compose.yml` and `www\config.php` files in this repository.
 
 ## 2. Prerequisites (1 point)
 _____________ (To complete)

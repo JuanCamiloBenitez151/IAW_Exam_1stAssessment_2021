@@ -43,7 +43,7 @@ The points you have to deliver for this practice are:
    * The system administrator must be able to enter the containers via the command terminal
    * The system administrator must be able to enter the MySQL client via the command terminal
 
-## 1. File needed to configure Docker containers (4 points)
+## 1. Files needed to configure Docker containers (4 points)
 Look at the `Dockerfile` and `docker-compose.yml` files in this repository.
 
 ## 2. Prerequisites (1 point)

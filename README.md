@@ -65,13 +65,12 @@ Para iniciar y parar los contenedros ejecutamos los comandos:
 
 `docker-compose down`
 ## 4. Access the web application and phpMyAdmin (1 point)
-_____________ (To complete)
-
+http://127.0.0.1/wp_php
 ## 5. Enter via terminal (bash shell) the containers (1 point)
-_____________ (To complete)
+`docker exec -it <cont-name> bash`
 
 ## 6. Enter the MySQL client via terminal (bash shell) (1 point)
-_____________ (To complete)
+`mysql -h localhost -u myname -ppassword mydb`
 
 ## 7. Monitoring the development of this Sprint (1 point)
 Look at the `Issues` and `Projects` menus in this repository

@@ -49,7 +49,14 @@ The points you have to deliver for this practice are:
 Look at the `Dockerfile`, `docker-compose.yml` and `www\config.php` files in this repository.
 
 ## 2. Prerequisites (1 point)
-_____________ (To complete)
+Los requisitos previos es asegurarnos que tenemos intalados o actualizado Docker,PHP Y MYSQL.
+
+`sudo apt install mysql-server`
+
+
+`sudo apt install phpmyadmin php7.0-mbstring php7.0-gettext`
+
+
 
 ## 3. Run and stop the containers (1 point)
 _____________ (To complete)

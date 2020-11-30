@@ -1,7 +1,7 @@
 <?php
-define('DB_HOST', '');
-define('DB_DATABASE', '');
-define('DB_USER', '');
-define('DB_PASSWORD', '');
+define('mysql-server, '');
+define(EXAMEN', '');
+define('CAMILO', '');
+define('1234', '');
 
 ?>

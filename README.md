@@ -59,8 +59,11 @@ Los requisitos previos es asegurarnos que tenemos intalados o actualizado Docker
 
 
 ## 3. Run and stop the containers (1 point)
-_____________ (To complete)
+Para iniciar y parar los contenedros ejecutamos los comandos:
 
+`docker-compose up -d`
+
+`docker-compose down`
 ## 4. Access the web application and phpMyAdmin (1 point)
 _____________ (To complete)
 
